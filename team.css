@@ -1,0 +1,102 @@
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+section#count {
+	margin-bottom: 0px !important;
+}
+
+/* ============== */
+
+section#team {
+    padding: 60px 0;
+}
+section#team .team-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+section#team .team-wrapper .team-box {
+    width: 24%;
+    background-color: #fff;
+    height: 500px;
+    position: relative !important;
+    transition: all ease 0.5s;
+}
+section#team .team-wrapper .team-box .team-b-up {
+    
+}
+section#team .team-wrapper .team-box .team-b-up img {
+    width: 100%;
+    height: 350px;
+}
+section#team .team-wrapper .team-box .team-b-down {
+ text-align: center;
+ padding-top: 25px;
+}
+section#team .team-wrapper .team-box .team-b-down h2 {
+    font-size: 23px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.8);
+}
+section#team .team-wrapper .team-box .team-b-down h3 {
+    font-size: 16px;
+    color: #999999;
+    font-weight: 500;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+section#team .team-wrapper .team-box .team-social-media {
+
+}
+section#team .team-wrapper .team-box .team-social-media ul {
+    position: absolute;
+    left: 20px;
+    bottom: 160px;
+}
+section#team .team-wrapper .team-box .team-social-media ul li {
+    display: block;
+}
+section#team .team-wrapper .team-box .team-social-media ul li a {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+}
+section#team .team-wrapper .team-box .team-social-media ul li a i {
+    display: block;
+    color: #fff;
+    background-color: #111;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+section#team .team-wrapper .team-box .team-social-media ul li:hover i {
+    background-color: #1eb2a6;
+}
+
+section#team .team-wrapper .team-box:hover .team-social-media i {
+    visibility: visible;
+    opacity: 1;
+}
+section#team .team-wrapper .team-box:hover{
+    background-color: #1eb2a6;
+    color: #ffff !important;
+}
+
+section#team .team-wrapper .team-box:hover h2{
+    color: #ffff !important;
+}
+
+section#team .team-wrapper .team-box:hover h3{
+    color: #ffff !important;
+}
+

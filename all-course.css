@@ -1,0 +1,40 @@
+/* header section desing start */
+header {
+    background: url(./img/bg_2.jpg) no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    padding: 20px 0;
+}
+
+header .header-d-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    margin-top: 150px !important;
+    flex-direction: column;
+}
+
+header .header-d-content h1 {
+    font-size: 70px !important;
+    font-weight: 400;
+}
+
+header .header-d-content ul {
+
+}
+header .header-d-content ul li {
+    display: inline-block;
+}
+header .header-d-content ul li a {
+    display: inline-block;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header .header-d-content ul li a i {
+    font-size: 16px;
+}
+/* header section desing end */

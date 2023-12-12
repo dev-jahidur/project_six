@@ -1,0 +1,142 @@
+/* header section desing start */
+section#contact {
+    margin: 70px 0 !important;
+}
+section#contact .contact-wrapper {
+    width: 100% !important;
+    height: 120vh;
+    background-color: #ffff !important;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+section#contact .contact-wrapper .contact-left {
+    width: 50%;
+}
+section#contact .contact-wrapper .contact-right {
+    width: 50%;
+    padding: 40px;
+}
+section#contact .contact-wrapper .contact-right h2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+section#contact .contact-wrapper .contact-right p {
+    margin: 10px 0 25px 0;
+    color: #999999;
+}
+section#contact .contact-wrapper .contact-right .c-r-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+section#contact .contact-wrapper .contact-right .c-r-list .c-r-l-left {}
+section#contact .contact-wrapper .contact-right .c-r-list .c-r-l-left ul {
+    list-style-type: none;
+}
+section#contact .contact-wrapper .contact-right .c-r-list .c-r-l-left ul li {
+    margin-bottom: 10px;
+    color: #999999;
+}
+
+section#contact .contact-wrapper .contact-right .c-r-list .c-r-l-left ul li:first-child {
+    font-size: 15px;
+    color: #111;
+}
+
+section#contact .contact-wrapper .contact-right .c-r-list .c-r-l-center{}
+section#contact .contact-wrapper .contact-right .c-r-list .c-r-l-center ul {
+    list-style-type: none;
+}
+section#contact .contact-wrapper .contact-right .c-r-list .c-r-l-center ul li {
+    margin-bottom: 10px;
+    color: #999999;
+}
+section#contact .contact-wrapper .contact-right .c-r-list .c-r-l-center ul li:first-child{
+    font-size: 15px;
+    color: #111;
+}
+
+section#contact .contact-wrapper .contact-right .c-r-list .c-r-l-right{}
+section#contact .contact-wrapper .contact-right .c-r-list .c-r-l-right ul {
+    list-style-type: none;
+}
+section#contact .contact-wrapper .contact-right .c-r-list .c-r-l-right ul li {
+    margin-bottom: 10px;
+    color: #999999;
+}
+section#contact .contact-wrapper .contact-right .c-r-list .c-r-l-right ul li:first-child{
+    font-size: 15px;
+    color: #111;
+}
+
+section#contact .contact-wrapper .contact-right .c-from {}
+section#contact .contact-wrapper .contact-right .c-from form {
+    width: 100%;
+}
+section#contact .contact-wrapper .contact-right input {
+    margin-bottom: 10px;
+    padding: 12px 10px;
+    border: 1px solid #c7c7c7cc;
+    outline: none;
+    font-size: 15px;
+}
+
+section#contact .contact-wrapper .contact-right input:focus{
+    border-color: #1eb2a6 !important;
+}
+section#contact .contact-wrapper .contact-right textarea:focus{
+    border-color: #1eb2a6 !important;
+}
+section#contact .contact-wrapper .contact-right .name {
+    width: 48%;
+}
+section#contact .contact-wrapper .contact-right .email {
+    width: 48%;
+    margin-left: 15px;
+}
+section#contact .contact-wrapper .contact-right .subject {
+    width: 100%;
+}
+section#contact .contact-wrapper .contact-right .comment {
+    width: 100%;
+    height: 120px;
+    padding: 10px 10px;
+    outline: none;
+    border: 1px solid #c7c7c7cc;
+}
+section#contact .contact-wrapper .contact-right a.btn {
+    display: inline-block;
+    margin: 15px 0;
+    text-decoration: none;
+    background-color: #1eb2a6;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+section#contact .contact-wrapper .contact-right #c-f-down h3 {
+    margin: 30px 0 20px 0 !important;
+    font-weight: 400;
+}
+section#contact .contact-wrapper .contact-right #c-f-down ul {}
+section#contact .contact-wrapper .contact-right #c-f-down ul li {
+    display: inline-block;
+}
+section#contact .contact-wrapper .contact-right #c-f-down ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding-right: 15px;
+    color: #1eb2a6;
+}
+
+
+/* header section desing end */
